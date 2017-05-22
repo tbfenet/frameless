@@ -1,4 +1,4 @@
-val sparkVersion = "2.0.2"
+val sparkVersion = "2.1.1"
 val catsv = "0.9.0"
 val scalatest = "3.0.1"
 val shapeless = "2.3.2"
@@ -66,7 +66,6 @@ lazy val commonScalacOptions = Seq(
   "-encoding", "UTF-8",
   "-feature",
   "-unchecked",
-  "-Xfatal-warnings",
   "-Xlint:-missing-interpolator,_",
   "-Yinline-warnings",
   "-Yno-adapted-args",
